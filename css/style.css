@@ -9,3 +9,36 @@
     justify-content: center;
     align-items: center;
 }
+
+.all-categories-img {
+    height: 500px;
+}
+
+.midnight-party {
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url(../assets/img/midnight-party.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.party-img {
+    height: 465px;
+}
+
+.party-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.venue {
+    height: 482px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+}
